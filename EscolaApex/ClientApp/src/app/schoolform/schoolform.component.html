@@ -1,0 +1,15 @@
+<h1>Cadastro</h1>
+<div class="col-md-5">
+  <label>Informe o nome</label>
+  <input class="form-control" [(ngModel)]="pessoa.nome" />
+  <label>Informe sua Idade</label>
+  <input class="form-control" [(ngModel)]="pessoa.idade" />
+  <label>Informe endreço</label>
+  <input class="form-control" [(ngModel)]="pessoa.endereco" />
+  <label>Informe o CPF</label>
+  <input class="form-control" [(ngModel)]="pessoa.cpf" />
+  <label>Informe o seu e-mail</label>
+  <input class="form-control" [(ngModel)]="pessoa.email" />
+  <br />
+  <button class="btn btn-success btn-sm" (click)="save()">Salvar</button>
+</div>
